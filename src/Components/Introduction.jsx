@@ -40,7 +40,7 @@ const Introduction =()=>{
                 
 
                 <motion.img 
-                    src="src/assets/WhatsApp_Image_2024-04-29_at_8.04.20_PM-removebg-preview.png"
+                    src="public/WhatsApp_Image_2024-04-29_at_8.04.20_PM-removebg-preview.png"
                     alt="Profile Image" 
                     className="image-1"
                     initial={{ opacity: 0, y: 550 }} 
