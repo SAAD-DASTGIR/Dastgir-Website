@@ -132,6 +132,9 @@ button:focus-visible {
 
 
 @media (max-width: 768px) {
+  .navbar{
+    min-width: 768px;
+  }
   .nav-list {
     display: none;
     flex-direction: column;
@@ -266,18 +269,18 @@ margin-bottom: -2rem;
     font-size: 80px;
   }
   .image-1{
-    margin-left: 1rem;
-    margin-top: -7rem;
+    margin-left: 9rem;
+    margin-top: -9rem;
   }
   .image-2{
-    margin-left: 0rem;
+    margin-left:11rem;
     margin-top: -27rem;
     width: 27rem;
   }
   .saad{
-    margin-left: 7rem;
+    margin-left: 18rem;
     font-size: 40px;
-    margin-top: -29rem;
+    margin-top: -34rem;
   }
   .iam{
     margin-left: -9rem;
@@ -285,15 +288,18 @@ margin-bottom: -2rem;
     color: var(--primary-yellow);
   }
   .intro-description{
-    margin-top: 21rem;
+    /* padding-top: 1rem; */
+    margin-top: 25rem;
     width: 26rem;
     font-size: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
+    margin-left: 10rem;
   }
   .icon-aboutme{
-    margin-left: 6rem;
+    margin-top: 1rem;
+    margin-left: 16rem;
   }
 }
 
@@ -547,6 +553,7 @@ margin-bottom: -2rem;
 .service-list{
   list-style:outside  ;
   color: var(--primary-yellow);
+  background: url('static/images/react (1).svg') no-repeat left center;
   /* margin-left: -2rem; */
 }
 .service-list1{
