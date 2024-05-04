@@ -37,7 +37,7 @@ const Services =()=>{
             transition={{ duration: 2 }}
             className="service-components">
                 <div className="flex">
-                <img className="img-service-component"src="src/assets/service-icon-1.png"  />
+                <img className="img-service-component"src="static/images/service-icon-1.png"  />
                
                <h2 className="service-area-heading">
                 
@@ -69,7 +69,7 @@ const Services =()=>{
                 <div className="flex">
                 <img className="img-service-component1"
                 
-                src="src/assets/service-icon-1.png" />
+                src="static/images/service-icon-1.png" />
                 <h2 className="service-area-heading">
 
                  BACKEND-END OPERATION
@@ -97,7 +97,7 @@ const Services =()=>{
             transition={{ duration: 2 }}
             className="service-components">
                 <div className="flex">
-                <img className="img-service-component"src="src/assets/service-icon-1.png"  />
+                <img className="img-service-component"src="static/images/service-icon-1.png"  />
                 <h2 className="service-area-heading">
                 AI / NLP INTEGRATIONS
                 </h2>
@@ -124,7 +124,7 @@ const Services =()=>{
             transition={{ duration: 2 }}
             className="service-components">
                 <div className="flex">
-                <img className="img-service-component"src="src/assets/service-icon-1.png"  />
+                <img className="img-service-component"src="static/images/service-icon-1.png"  />
                 <h2 className="service-area-heading">
                   UI AND UX DESIGNING
                   </h2>

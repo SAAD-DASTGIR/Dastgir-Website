@@ -80,7 +80,7 @@ const AboutMe = () => {
                 animate={{ opacity: inView ? 1 : 0, x: 0 }}
                 transition={{ delay: 3.5, duration: 1 }}
                 className="image-about"
-                src="src/assets/Pasted image.png"
+                src="static/images/Pasted image.png"
                 alt="" />
         </div>
     );

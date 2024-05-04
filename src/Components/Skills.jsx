@@ -34,7 +34,7 @@ const skills=()=>{
                 initial={{ opacity: 0, y: 250 }} 
                 animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 250 }}
                 transition={{ duration: 4 }}
-                src="src/assets/fun-cartoon-kid.png" 
+                src="static/images/fun-cartoon-kid.png" 
                 className="skill-image" />
             <motion.div 
              initial={{ opacity: 0, x: 250 }} 
@@ -43,7 +43,7 @@ const skills=()=>{
             className="skill-container">
                 <div>
                     <div className="skill-subcontainer">
-                        <p className="green"><img className="green"src="src/assets/react (1).svg" alt="" /></p><br />
+                        <p className="green"><img className="green"src="static/images/react (1).svg" alt="" /></p><br />
                         <p className="green">80%</p>
                     </div>
                     <p className="green">React</p>
@@ -51,7 +51,7 @@ const skills=()=>{
 
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/js.svg" alt="" /></p><br />
+                        <p><img src="static/images/js.svg" alt="" /></p><br />
                         <p className="green">80%</p>
                     </div>
                     <p className="green">JavaScript</p>
@@ -59,14 +59,14 @@ const skills=()=>{
 
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/css3-alt.svg" alt="" /></p><br />
+                        <p><img src="static/images/css3-alt.svg" alt="" /></p><br />
                         <p className="green">70%</p>
                     </div>
                     <p className="green">Tailwind CSS</p>
                 </div>   
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/node.svg" alt="" /></p><br />
+                        <p><img src="static/images/node.svg" alt="" /></p><br />
                         <p className="green">75%</p>
                     </div>
                     <p className="green">Node JS</p>
@@ -83,7 +83,7 @@ const skills=()=>{
             className="skill-container1">
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/route-solid.svg" alt="" /></p><br />
+                        <p><img src="static/images/route-solid.svg" alt="" /></p><br />
                         <p className="green">75%</p>
                     </div>
                     <p className="green">Express JS</p>
@@ -91,7 +91,7 @@ const skills=()=>{
 
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/database-solid.svg" alt="" /></p><br />
+                        <p><img src="static/images/database-solid.svg" alt="" /></p><br />
                         <p className="green">80%</p>
                     </div>
                     <p className="green">MongoDB</p>
@@ -99,14 +99,14 @@ const skills=()=>{
 
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/css3.svg" alt="" /></p><br />
+                        <p><img src="static/images/css3.svg" alt="" /></p><br />
                         <p className="green">80%</p>
                     </div>
                     <p className="green">CSS</p>
                 </div>   
                 <div>
                     <div className="skill-subcontainer">
-                        <p><img src="src/assets/figma.svg" alt="" /></p><br />
+                        <p><img src="static/images/figma.svg" alt="" /></p><br />
                         <p className="green">60%</p>
                     </div>
                     <p className="green">figma</p>

@@ -54,7 +54,7 @@ const Resume = () => {
       animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 300}}
       transition={{ duration: 3 }}
           title="Resume"
-          src="src/assets/Saad_resume-2.pdf"
+          src="static/images/Saad_resume-2.pdf"
           width="50%"
           height="650px"
           className='iframe'

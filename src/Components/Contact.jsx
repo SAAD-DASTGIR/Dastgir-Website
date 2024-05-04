@@ -20,7 +20,7 @@ const Contact =()=>{
                  initial={{ opacity: 0,x:-30,y:-120 }} 
                  animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -120, x:inView?0:-30 }}
                  transition={{ duration: 2 }}
-                src="src/assets/Screenshot from 2024-05-02 17-28-43.png" alt="" />
+                src="static/images/Screenshot from 2024-05-02 17-28-43.png" alt="" />
             </div>
             <div className="contact-container">
                 <motion.h3 

@@ -49,7 +49,7 @@ const Introduction =()=>{
                     />
                     
                  <motion.img 
-                    src="src/assets/hero-img-bg.svg"
+                    src="static/images/hero-img-bg.svg"
                     alt="Profile Image" 
                     className="image-2"
                     initial={{ opacity: 0, y: -550 }} 
@@ -76,7 +76,7 @@ const Introduction =()=>{
                     Software Engineer</motion.h4>
                  <img 
                     className="icon-aboutme"
-                    src="src/assets/scroll-down.png"
+                    src="static/images/scroll-down.png"
                     alt="Profile Image" 
                     // className="image-2"
                 />

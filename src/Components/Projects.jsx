@@ -73,7 +73,7 @@ const Projects=()=>{
                initial={{ opacity: 0,y:100 ,x:-30 }} 
                animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100, x:inView?0:-30 }}
                transition={{ duration: 3 }}
-                   src="src/assets/Screenshot from 2024-05-01 20-44-12.png" 
+                   src="static/images/Screenshot from 2024-05-01 20-44-12.png" 
                    className="project-image-1" />
             </div>
 
@@ -82,7 +82,7 @@ const Projects=()=>{
            initial={{ opacity: 0,y:100 ,x:30 }} 
            animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100, x:inView?0:30 }}
            transition={{ duration: 3 }}
-                   src="src/assets/khabarnam.png" 
+                   src="static/images/khabarnam.png" 
                    className="project-image-1" 
                 />)} 
                <div className="project-subcontainer">
@@ -131,7 +131,7 @@ const Projects=()=>{
                initial={{ opacity: 0,y:100 ,x:-30 }} 
                animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100, x:inView?0:-30 }}
                transition={{ duration: 3 }}
-                   src="src/assets/khabarnam.png" 
+                   src="static/images/khabarnam.png" 
                    className="project-image-1" 
                 />):(<></>)} 
             </div>
@@ -183,7 +183,7 @@ const Projects=()=>{
                initial={{ opacity: 0,y:100 ,x:30 }} 
                animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100, x:inView?0:30 }}
                transition={{ duration: 3 }}
-                   src="src/assets/ip.png" 
+                   src="static/images/ip.png" 
                    className="project-image-1" />
             </div>
 
@@ -193,7 +193,7 @@ const Projects=()=>{
                   initial={{ opacity: 0,y:100 ,x:-30 }} 
                   animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100, x:inView?0:-30 }}
                   transition={{ duration: 2 }}
-                   src="src/assets/jobfit.png" 
+                   src="static/images/jobfit.png" 
                    className="project-image-1" />)} 
 
                <div className="project-subcontainer">
@@ -242,7 +242,7 @@ const Projects=()=>{
                   </motion.button>
                </div>
                {isMobile? (<motion.img 
-                   src="src/assets/jobfit.png" 
+                   src="static/images/jobfit.png" 
                    className="project-image-1" />):(<></>)} 
 
             </div>
