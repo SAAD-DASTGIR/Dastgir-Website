@@ -82,7 +82,7 @@ button:focus-visible {
   --medium-font-size:40px;
   --secondary-medium-font-size:35px;
   --big-font-size:80px;
-  /* background-color: #0f0e0e; */
+  background-color: #0f0e0e;
 
   ;
 }
