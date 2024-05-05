@@ -273,8 +273,8 @@ margin-bottom: -2rem;
     margin-top: -9rem;
   }
   .image-2{
-    margin-left:11rem;
-    margin-top: -27rem;
+    margin-left:10.5rem;
+    margin-top: -24rem;
     width: 27rem;
   }
   .saad{
@@ -556,24 +556,43 @@ margin-bottom: -2rem;
   background: url('static/images/react (1).svg') no-repeat left center;
   /* margin-left: -2rem; */
 }
-.service-list1{
-  list-style:outside  ;
-  color: var(--primary-yellow);
-  /* margin-left: 12rem; */
+
+
+
+
+
+.service-list3,.service-list2, .service-list1,.service-list4 {
+  /* background-color: var(--primary-background); */
+  list-style: none;
+  border-radius: 1rem;
+  text-decoration:line-through;
 }
-.service-list2{
-  list-style:outside  ;
+
+.service-list3 li , .service-list2 li,.service-list1 li  {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between list items */
   color: var(--primary-yellow);
-  /* margin-left: -2rem; */
+  font-weight: bold; /* Make the text bold for better visibility */
+  cursor: pointer; /* Add pointer cursor to indicate clickable items */
+}
+
+.service-list3 li:last-child,.service-list2 li:last-child,.service-list1 li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
 }
 .service-list3{
-  list-style:outside  ;
-  color: var(--primary-yellow);
-  /* margin-left: -2rem; */
+  /* padding-right: 1rem; */
 }
-.service-list4{
-  list-style:outside  ;
+
+.service-list4 li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between list items */
   color: var(--primary-yellow);
+  font-weight: bold; /* Make the text bold for better visibility */
+  cursor: pointer; /* Add pointer cursor to indicate clickable items */
+}
+
+.service-list4 li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
 }
 
 @media (max-width:768px) {
@@ -607,20 +626,31 @@ margin-bottom: -2rem;
     max-width: 101%;
   }
   .service-list1{
-    margin-top: 22rem;
-    margin-left: -16rem;
+    margin-top: 26rem;
+    margin-left: -40rem;
+    width: 300px;
+    background-color: #1f1f1f;
   }
   .service-list2{
-    margin-top: 24rem;
-    margin-left: -16rem;
+    margin-top: 27rem;
+    margin-left: -40rem;
+    width: 300px;
+    background-color: #1f1f1f;
+
+
+    
   }
   .service-list3{
-    margin-top: 18rem;
-    margin-left: -16rem;
+    margin-top: 27rem;
+    margin-left: -40rem;
+    width: 300px;
+    background-color: #1f1f1f;
   }
   .service-list4{
-    margin-top: 22rem;
-    margin-left: -16rem;
+    margin-top: 29rem;
+    margin-left: -40rem;
+    width: 300px;
+    background-color: #1f1f1f;
   }
 }
 .skill{
@@ -936,12 +966,13 @@ margin-bottom: -2rem;
     margin-left: 2rem;
   }
   .contact-paragraph{
-    width:180%;
-    margin-left: 2rem;
+    width:190%;
+    margin-left: 4rem;
   }
   .contact-button{
     width: 70%;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
+    text-align: center;
 
   }
 }

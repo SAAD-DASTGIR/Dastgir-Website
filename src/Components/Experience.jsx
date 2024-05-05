@@ -22,24 +22,24 @@ const Experience = () => {
             <h2 className="experience-heading">WORK & EDUCATION</h2>
             <div className="experience-contanier">
                 <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }}
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
                     transition={{ duration: 3.5 }}
                     className="experience-content">
                     <div className="abc">
                         <motion.div
-                            initial={{ opacity: 0, x: 50 }}
-                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }}
-                            transition={{ duration: 2 }}
+                            initial={{ opacity: 0, x: -50 }}
+                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                            transition={{ duration: 3 }}
                             className="abc1">
                             <p>2021 - Present</p>
                             <p>Open Source Contributor</p>
                         </motion.div>
                         <div>
                             <motion.div
-                                initial={{ opacity: 0, x: 50 }}
-                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }}
-                                transition={{ duration: 2 }}
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                                transition={{ duration: 3 }}
                                 className="abc1">
                                 <p>Dec 2023 (Intern)</p>
                                 <p>CodeAlpha</p>
@@ -49,17 +49,17 @@ const Experience = () => {
                     <div className="abc">
                         <div>
                             <motion.div
-                                initial={{ opacity: 0, x: 50 }}
-                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }}
-                                transition={{ duration: 2 }}
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                                transition={{ duration: 3 }}
                                 className="abc1">
                                 <p>July 2022 (Intern)</p>
                                 <p>Ezilne Technolgy Pvt Limited</p>
                             </motion.div>
                         </div>
                         <motion.div
-                            initial={{ opacity: 0, x: 50 }}
-                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }}
+                            initial={{ opacity: 0, x: -50 }}
+                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
                             transition={{ duration: 2 }}
                             className="abc1">
                             <p>Sept 2022 (intern)</p>
@@ -89,24 +89,24 @@ const Experience = () => {
                     </motion.h2>
                 </div>
                 <motion.div
-                    initial={{ opacity: 0, x: -90 }}
-                    animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -90 }}
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
                     transition={{ duration: 4 }}
                     className="study-content">
                     <div className="abc">
                         <motion.div
-                            initial={{ opacity: 0, x: -90 }}
-                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -90 }}
-                            transition={{ duration: 2 }}
+                            initial={{ opacity: 0, x: -50 }}
+                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                            transition={{ duration: 3 }}
                             className="abc1">
                             <p>2024 (Bahria University)</p>
                             <p>Bachelors in Computer Science</p>
                         </motion.div>
                         <div>
                             <motion.div
-                                initial={{ opacity: 0, x: -90 }}
-                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -90 }}
-                                transition={{ duration: 2 }}
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                                transition={{ duration: 3 }}
                                 className="abc1">
                                 <p>2022 (Coursea) </p>
                                 <p>Certification in React JS</p>
@@ -116,18 +116,18 @@ const Experience = () => {
                     <div className="abc">
                         <div>
                             <motion.div
-                                initial={{ opacity: 0, x: -90 }}
-                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -90 }}
-                                transition={{ duration: 2 }}
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                                transition={{ duration: 3 }}
                                 className="abc1">
                                 <p>2023 (Udemy) </p>
                                 <p>Certification in MERN TECH</p>
                             </motion.div>
                         </div>
                         <motion.div
-                            initial={{ opacity: 0, x: -70 }}
-                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -70 }}
-                            transition={{ duration: 2 }}
+                            initial={{ opacity: 0, x: -50 }}
+                            animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
+                            transition={{ duration: 3 }}
                             className="abc1">
                             <p>2022 (Udemy)</p>
                             <p>Certfication in JavaScript</p>

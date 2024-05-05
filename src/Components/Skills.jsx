@@ -37,8 +37,8 @@ const skills=()=>{
                 src="static/images/fun-cartoon-kid.png" 
                 className="skill-image" />
             <motion.div 
-             initial={{ opacity: 0, x: 250 }} 
-             animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 250 }}
+             initial={{ opacity: 0, x: 50 }} 
+             animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 50 }}
              transition={{ duration: 4 }}
             className="skill-container">
                 <div>

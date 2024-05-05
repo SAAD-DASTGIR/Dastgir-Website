@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 const Resume = () => {
+    
     const [inView, setInView] = useState(false);
 
     const { ref, inView: isVisible } = useInView({
@@ -22,8 +23,8 @@ const Resume = () => {
             transition={{ duration: 3 }}
             className='resume-title'>My Resume</motion.h1>
             <motion.p 
-            initial={{ opacity: 0,x:120,y:-100 }} 
-            animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -100, x:inView?0:120 }}
+            initial={{ opacity: 0,x:20,y:-100 }} 
+            animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -100, x:inView?0:20 }}
             transition={{ duration: 2 }}
             className='resume-description'>
             I am a skilled and versatile software developer 
@@ -54,7 +55,7 @@ const Resume = () => {
       animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 300}}
       transition={{ duration: 3 }}
           title="Resume"
-          src="static/images/Saad_resume-2.pdf"
+          src="static/images/SaadResume.pdf"
           width="50%"
           height="650px"
           className='iframe'
