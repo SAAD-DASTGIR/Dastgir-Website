@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -108,7 +109,7 @@ const Navbar = () => {
           </ScrollLink>
         </li>
       </ul>
-      <motion.button
+     {!isMobile? <motion.button
         animate={{ opacity: 1, scale: [0.5, 1], rotate: [0, 360], x: [0, 20, 0] }}
         whileHover={{ scale: 1.1, color: "#0f0e0e", backgroundColor: "#64f4ab" }}
         whileTap={{ scale: 1.2 }}
@@ -117,7 +118,7 @@ const Navbar = () => {
         onClick={()=>window.location.href="mailto:msaaddastgir@gmail.com"}
       >
         <FontAwesomeIcon icon={["fas", "user"]} /> Say Hi
-      </motion.button>
+      </motion.button>:""} 
     </div>
   );
 };

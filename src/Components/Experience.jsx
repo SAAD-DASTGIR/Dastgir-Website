@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Experience = () => {
     const [inView, setInView] = useState(false);
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+
 
     const { ref, inView: isVisible } = useInView({
         threshold: 0.1
@@ -71,21 +73,27 @@ const Experience = () => {
                     initial={{ opacity: 0, y: -150 }}
                     animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }}
                     transition={{ duration: 3 }}>
-                    <h2 className="exp-description">
+                  {!isMobile?<h2 className="exp-description">
                         <FontAwesomeIcon icon="fa-solid fa-arrow-left" />   Experience
-                    </h2>
+                    </h2>:<h2 className="exp-description">
+                    <FontAwesomeIcon icon="fa-solid fa-arrow-down" 
+                    className="pad-left"
+                    />       Experience
+                    </h2>}  
                 </motion.div>
             </div>
 
             <div className="experience-contanier">
                 <div>
+                    
                     <motion.h2
                         initial={{ opacity: 0, y: -180 }}
                         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -150 }}
                         transition={{ duration: 3 }}
                         className="study-description">
-                        Study  
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
+                            {isMobile?<FontAwesomeIcon icon="fa-solid fa-arrow-down" 
+                    className="pad-left1"/>:   ""}
+                        Education       {!isMobile?<   FontAwesomeIcon icon="fa-solid fa-arrow-right" />:""}
                     </motion.h2>
                 </div>
                 <motion.div

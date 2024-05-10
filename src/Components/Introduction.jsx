@@ -4,20 +4,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from "framer-motion";
 
 const Introduction =()=>{
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
     return(
 
         <div className="introduction ">
             <div className="i">
             
-                <motion.p
-                className="intro-1"
+              <motion.p
+                className="intro-12"
                 initial={{ opacity: 0 }} 
                 animate={{ opacity: 4 }}   
                 transition={{ duration: 2 }}
                 >
                     <FontAwesomeIcon icon="fa-solid fa-code" /> 
                         Web Developer
+               
+                {isMobile?<motion.button
+                    animate={{ opacity: 1, scale: [0.5, 1], rotate: [0, 360], x: [0, 20, 0] }}
+                    whileHover={{ scale: 1.1, color: "#0f0e0e", backgroundColor: "#64f4ab" }}
+                    whileTap={{ scale: 1.2 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    className="btn-contact123"
+                    onClick={()=>window.location.href="mailto:msaaddastgir@gmail.com"}
+                >
+                    Contact Me
+                </motion.button>:<></>}
                 </motion.p>
                 <div className="intro-2">
                 <motion.h2

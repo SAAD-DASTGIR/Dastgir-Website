@@ -107,6 +107,7 @@ button:focus-visible {
   display: none;
   font-size: larger;
   color: var(--primary-yellow);
+  margin-left: 70%;
 }
 
 .nav-list {
@@ -228,7 +229,7 @@ margin-bottom: -2rem;
   margin-left: 45rem;
   font-weight: bold;
   letter-spacing: 3px;
-  margin-top: -24rem;
+  margin-top: -21rem;
 }
 
 .intro-description{
@@ -261,6 +262,12 @@ margin-bottom: -2rem;
   
 }
 @media (max-width:768px) {
+  .intro-2{
+    margin-top: -6rem;
+  }
+  .intro-12{
+    margin-left: 2rem;
+  }
   .introduction{
     min-width: 768px;
   }
@@ -270,36 +277,54 @@ margin-bottom: -2rem;
   }
   .image-1{
     margin-left: 9rem;
-    margin-top: -9rem;
+    margin-top: -6rem;
   }
   .image-2{
-    margin-left:10.5rem;
-    margin-top: -24rem;
-    width: 27rem;
+    margin-left:9rem;
+    margin-top: -25rem;
+    width: 30rem;
   }
   .saad{
-    margin-left: 18rem;
-    font-size: 40px;
-    margin-top: -34rem;
+    margin-left: 26rem;
+    font-size: 45px;
+    margin-top: -41rem;
+    /* margin-top: -28rem; */
+
   }
   .iam{
-    margin-left: -9rem;
-    font-size: 31px;
+    margin-left: -15rem;
+    font-size: 71px;
     color: var(--primary-yellow);
   }
   .intro-description{
     /* padding-top: 1rem; */
-    margin-top: 25rem;
-    width: 26rem;
+    margin-top: 27rem;
+    width: 32rem;
     font-size: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
-    margin-left: 10rem;
+    margin-left: 9rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .icon-aboutme{
     margin-top: 1rem;
     margin-left: 16rem;
+  }
+  .btn-contact123{
+    margin-left: 65%;
+    color: var(--primary-color-black);
+  background-color: var(--primary-yellow);
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: -22rem;
+  font-size: 20px;
   }
 }
 
@@ -367,10 +392,10 @@ margin-bottom: -2rem;
     display: none;
   }
   .about-details-h{
-    padding-left: 0.5rem;
+    padding-left: 2rem;
   }
   .about-details{
-    padding-left: 0.5rem;
+    padding-left: 2rem;
   }
 }
 .experience{
@@ -462,16 +487,27 @@ margin-bottom: -2rem;
   border-radius: 2rem;
   /* width: 30%; */
 }
+
 @media (max-width:768px) {
+  .pad-left{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .pad-left1{
+    padding-right: 1rem;
+    padding-left: -7rem;
+  }
   .experience{
     min-width: 768px;
 
   }
   .exp-description{
-    margin-left: -21rem;
+    position: relative;
+    margin-left: -45rem;
+    width: max-content;
     margin-top: -1rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 3rem;
   }
   .experience-content{
     margin-left: -3rem;
@@ -481,9 +517,13 @@ margin-bottom: -2rem;
   .study-description{
     margin-left: -3rem;
     margin-top: 4rem;
+    padding-top: -1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
   }
   .study-content{
-    margin-left: -25rem;
+    margin-left: -23rem;
     margin-top: 14rem;
     width: 100%;
   }
@@ -620,7 +660,7 @@ margin-bottom: -2rem;
     max-width: 101%;
   }
   .service-p-3{
-    margin-left: -13rem;
+    margin-left: -11rem;
     margin-top: 9rem;
     min-width: 100%;
     max-width: 101%;
